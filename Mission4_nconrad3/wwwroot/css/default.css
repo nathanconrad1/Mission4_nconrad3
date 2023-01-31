@@ -1,0 +1,17 @@
+﻿body {
+    font-family:'Times New Roman', Times, serif;
+    margin-block: 7px;
+
+}
+
+label {
+    font-size: 20px;
+    color: darkblue;
+    width: 150px;
+    display: inline-block;
+    
+}
+
+li {
+    list-style-type: none;
+}

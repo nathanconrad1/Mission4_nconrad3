@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+
+    <title>Nate Conrad Mission 4</title>
+    <!--links to bootstrap and css-->
+    <link rel="icon" type="image/x-icon" href="img/surfboard.jpg">
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<!--information about me-->
+
+<body>
+    <div class="header">
+        <h1>Mission 4</h1>
+        <p>Nate Conrad</p>
+    </div>
+    <img src="img/IV1A1698.jpg" height="400px" />
+    <br /><br />
+    <p>
+        I hope to be able to become more adept at full stack programing, and to be able
+        know how to use another programing language.  Also I hope to be able to become more familiar to building websites
+        so that in the future I will be able to not only develop software or websites with pre-existing structure, but to be able
+        to build my own website from the ground up.
+    </p>
+    <br />
+    <p>Top 3 jobs I'm most interested in</p>
+    <ul>
+        <li>1.  Software Developer</li>
+        <li>2.  Mobile App Developer</li>
+        <li>3.  Cyber Security</li>
+    </ul>
+
+    <!--grab percentages for the calculator-->
+
+    <h2>Grade Calculator</h2>
+    <p>Enter the percent recieved for each catagory i.e.(97% = 97)</p>
+    <form>
+        <label>Assignments:</label>
+        <input type="number" id="assignments" /> <br />
+        <label>Group Projects:</label>
+        <input type="number" id="groupProjects" /><br />
+        <label>Quizzes:</label>
+        <input type="number" id="quizzes" /> <br />
+        <label>Midterm Exam:</label>
+        <input type="number" id="midterm" /> <br />
+        <label>Final Exam:</label>
+        <input type="number" id="final" /> <br />
+        <label>INTEX:</label>
+        <input type="number" id="intex" /> <br />
+        <input type="button" id="buttonSend" value="Calculate Score" />
+    </form>
+
+    <!--print out the letter grade and percentage-->
+
+    <h1 id="grades">Final Letter Grade: </h1>
+    <h1 class="result" id="result">Total Score in the Class</h1>
+
+
+    <!--my js and brought in js-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/Calculator.js"></script>
+
+</body>
+</html>
