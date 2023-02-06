@@ -52,7 +52,8 @@ document.getElementById("buttonSend").addEventListener("click",
 
 //print to the form
     grades.innerHTML = ("Final Letter Grade: " + grade);
-    result.innerHTML = ("Total Score in Class: " + total);
+        result.innerHTML = ("Total Score in Class: " + total);
+        alert("Total Score in Class: " + total);
 
 })
 
